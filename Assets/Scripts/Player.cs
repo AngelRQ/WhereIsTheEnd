@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class Player : MonoBehaviour
     private bool isGrounded;
     private Rigidbody2D rigidbody2D;
     public GameObject lifesPanel;
-
+    public Text tiempo;
 
     // Start is called before the first frame update
     void Start()
@@ -38,7 +39,7 @@ public class Player : MonoBehaviour
 
         if (isGrounded)
         {
-
+            Debug.Log("NO esta tocando");
             animator.SetBool("isJumping", false);
         }
 
@@ -58,21 +59,25 @@ public class Player : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.name == "TileMap") isGrounded = true;
+        if (collider.name == "Detector suelo") isGrounded = true;
 
     }
 
     private void OnTriggerExit2D(Collider2D collider)
     {
-        if (collider.name == "TileMap") isGrounded = false;
+        if (collider.name == "Detector suelo") isGrounded = false;
     }
+
+
+    
 
     public void Death()
     {
-
+        float contador = 0;
         if (life <= 1)
-        {
+        {  
 
+            tiempo.text = "" + contador.ToString("f1");
             life = 2;
             for (int i = 0; i < lifesPanel.transform.childCount; i++)
             {
