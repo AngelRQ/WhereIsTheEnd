@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9462272aadf79764b91a2ceebe38a508
+guid: 8519701737ae05f418a59e7dcf6645a2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -124,29 +124,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Assets_0
+      name: Assets-al-100_0
       rect:
         serializedVersion: 2
-        x: 161
-        y: 458
-        width: 395
-        height: 120
+        x: 148
+        y: 504
+        width: 119
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,124 +142,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94b8f6189ea910f4895cb6727cafa140
-      internalID: -1643222045
+      spriteID: 84acbe987ba88724ba3e500493cc80cc
+      internalID: -410765983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Assets_1
+      name: Assets-al-100_1
       rect:
         serializedVersion: 2
-        x: 28
-        y: 333
-        width: 340
-        height: 108
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83d648919e5db06479d84dbca145e249
-      internalID: -39571336
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Assets_2
-      rect:
-        serializedVersion: 2
-        x: 437
-        y: 327
-        width: 366
-        height: 106
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: edff21ad9daa9bd429713ac5cc70c6cd
-      internalID: -931863999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Assets_3
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 59
-        width: 163
-        height: 190
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e0c6d1b6ec476845bce6733b62e3e2c
-      internalID: 1455191918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Assets_4
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 58
-        width: 113
-        height: 227
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b73f97c1e1b5e8347b42710137f63e4e
-      internalID: 522983457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Assets_5
-      rect:
-        serializedVersion: 2
-        x: 413
-        y: 51
-        width: 169
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c0f222d8379b3749995913c9fafc290
-      internalID: -2140889484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Assets_6
-      rect:
-        serializedVersion: 2
-        x: 628
-        y: 57
-        width: 162
+        x: 140
+        y: 314
+        width: 132
         height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -280,8 +163,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f537962f71e7c44dae11fa2786353b9
-      internalID: -1909479884
+      spriteID: c1fe1897031e84b4f98ff881e448f251
+      internalID: 362561625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets-al-100_2
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 314
+        width: 63
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d011915f72ff978488022d3629c7bab5
+      internalID: -235588684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets-al-100_3
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 313
+        width: 91
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3915848245ec2841b4c0d922a23ab5b
+      internalID: 1212738489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets-al-100_4
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 148
+        width: 91
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a6ab400e4cf2548af9542e1b03e689
+      internalID: 680723502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets-al-100_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 163
+        width: 94
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942c70d1b9aa2154eb2791e571a9e22d
+      internalID: -1270934689
       vertices: []
       indices: 
       edges: []
@@ -297,13 +264,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Assets_2: -931863999
-      Assets_0: -1643222045
-      Assets_6: -1909479884
-      Assets_3: 1455191918
-      Assets_4: 522983457
-      Assets_5: -2140889484
-      Assets_1: -39571336
+      Assets-al-100_5: -1270934689
+      Assets-al-100_1: 362561625
+      Assets-al-100_2: -235588684
+      Assets-al-100_4: 680723502
+      Assets-al-100_0: -410765983
+      Assets-al-100_3: 1212738489
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
