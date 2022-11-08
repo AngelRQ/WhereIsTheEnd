@@ -27,14 +27,20 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //SISTEMA DE DISTANCIA
         contadorTiempo += Time.deltaTime;
         tiempo.text = "" + contadorTiempo.ToString("f1");
 
+
+        //AQUI SE MUEVE EL FONDO
         fondo.material.mainTextureOffset = fondo.material.mainTextureOffset + new Vector2 (0.10f, 0) * Time.deltaTime;
         
         //SE MUEVE EL SUELO
         for(int i=0; i < cols.Count; i++)
         {
+            if(cols[i].transform.position.x <= -10){
+                cols[i].transform.position = new Vector3(10, -4.5f, 0);
+            }
             cols[i].transform.position = cols[i].transform.position + new Vector3(-1,0,0) * Time.deltaTime * floorSpeed;
         }
     }
