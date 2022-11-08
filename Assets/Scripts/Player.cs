@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Player : MonoBehaviour
@@ -75,7 +76,8 @@ public class Player : MonoBehaviour
     {
         float contador = 0;
         if (life <= 1)
-        {  
+        {
+            SceneManager.LoadScene("Perdida");
 
             tiempo.text = "" + contador.ToString("f1");
             life = 2;
