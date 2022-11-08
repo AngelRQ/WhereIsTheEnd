@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     public int life = 2;
     public float jumpForce;
     private bool isGrounded;
-    private Rigidbody2D rigidbody2D;
+    public Rigidbody2D rigidbody2D;
     public GameObject lifesPanel;
     public Text tiempo;
 
