@@ -315,10 +315,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Volver a intentarlo
+  m_text: VOLVER A INTENTARLO
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 61f157d960832bd418402780e4b70aa5, type: 2}
+  m_sharedMaterial: {fileID: 1682438885659399161, guid: 61f157d960832bd418402780e4b70aa5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -452,8 +452,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Perdiste\nSuerte para la pr\xF3xima!!!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 61f157d960832bd418402780e4b70aa5, type: 2}
+  m_sharedMaterial: {fileID: 1682438885659399161, guid: 61f157d960832bd418402780e4b70aa5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -737,10 +737,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Men\xFA Principal"
+  m_text: MENU PRINCIPAL
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 61f157d960832bd418402780e4b70aa5, type: 2}
+  m_sharedMaterial: {fileID: 1682438885659399161, guid: 61f157d960832bd418402780e4b70aa5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
