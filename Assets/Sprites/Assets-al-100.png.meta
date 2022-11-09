@@ -124,6 +124,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -131,10 +143,10 @@ TextureImporter:
       name: Assets-al-100_0
       rect:
         serializedVersion: 2
-        x: 148
-        y: 504
-        width: 119
-        height: 115
+        x: 86
+        y: 576
+        width: 82
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84acbe987ba88724ba3e500493cc80cc
-      internalID: -410765983
+      spriteID: ae18c6cacf2ef8a4b9df8bab1a296b45
+      internalID: 1354536024
       vertices: []
       indices: 
       edges: []
@@ -152,10 +164,10 @@ TextureImporter:
       name: Assets-al-100_1
       rect:
         serializedVersion: 2
-        x: 140
-        y: 314
-        width: 132
-        height: 103
+        x: 258
+        y: 516
+        width: 255
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,8 +175,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1fe1897031e84b4f98ff881e448f251
-      internalID: 362561625
+      spriteID: 3012ba372d3f0d44b82ebdd6600dcfef
+      internalID: -598057804
       vertices: []
       indices: 
       edges: []
@@ -173,10 +185,10 @@ TextureImporter:
       name: Assets-al-100_2
       rect:
         serializedVersion: 2
-        x: 415
-        y: 314
-        width: 63
-        height: 126
+        x: 557
+        y: 438
+        width: 222
+        height: 196
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +196,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d011915f72ff978488022d3629c7bab5
-      internalID: -235588684
+      spriteID: d3a1d4028e421354eb933cabd128b34f
+      internalID: -2102735046
       vertices: []
       indices: 
       edges: []
@@ -194,10 +206,10 @@ TextureImporter:
       name: Assets-al-100_3
       rect:
         serializedVersion: 2
-        x: 624
-        y: 313
-        width: 91
-        height: 57
+        x: 246
+        y: 528
+        width: 15
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +217,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3915848245ec2841b4c0d922a23ab5b
-      internalID: 1212738489
+      spriteID: 2d0a92a91e479bd4f866466c211ffbb3
+      internalID: -1558837806
       vertices: []
       indices: 
       edges: []
@@ -215,10 +227,10 @@ TextureImporter:
       name: Assets-al-100_4
       rect:
         serializedVersion: 2
-        x: 291
-        y: 148
-        width: 91
-        height: 106
+        x: 262
+        y: 344
+        width: 229
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,8 +238,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5a6ab400e4cf2548af9542e1b03e689
-      internalID: 680723502
+      spriteID: 15f04d4396a233a41b281ce8645aeca4
+      internalID: -930859753
       vertices: []
       indices: 
       edges: []
@@ -236,10 +248,10 @@ TextureImporter:
       name: Assets-al-100_5
       rect:
         serializedVersion: 2
-        x: 512
-        y: 163
-        width: 94
-        height: 87
+        x: 780
+        y: 451
+        width: 13
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,8 +259,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 942c70d1b9aa2154eb2791e571a9e22d
-      internalID: -1270934689
+      spriteID: bfa30c4e43af8834e8b06ecbdbd42701
+      internalID: 1932265648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets-al-100_6
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 115
+        width: 125
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd5e2e5d508c9c409f3eaec3fd1df98
+      internalID: 1107469527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets-al-100_7
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 200
+        width: 293
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0088a71a6e3624ea241d2b8daea210
+      internalID: 387768914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets-al-100_8
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 226
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34d1515b17e8fb4690ddd1498904f08
+      internalID: 1619450131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets-al-100_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 58
+        width: 119
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d931f77c5b17c0b4e8c016aef589bf3c
+      internalID: -354522891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets-al-100_10
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 123
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25931fcbc7f616a489bc477508b06ba2
+      internalID: 1815416206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets-al-100_11
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 117
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb12ac6b38495d44ac587f17466c004
+      internalID: 1901611325
       vertices: []
       indices: 
       edges: []
@@ -264,12 +402,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Assets-al-100_5: -1270934689
-      Assets-al-100_1: 362561625
-      Assets-al-100_2: -235588684
-      Assets-al-100_4: 680723502
-      Assets-al-100_0: -410765983
-      Assets-al-100_3: 1212738489
+      Assets-al-100_5: 1932265648
+      Assets-al-100_7: 387768914
+      Assets-al-100_11: 1901611325
+      Assets-al-100_1: -598057804
+      Assets-al-100_10: 1815416206
+      Assets-al-100_2: -2102735046
+      Assets-al-100_9: -354522891
+      Assets-al-100_8: 1619450131
+      Assets-al-100_4: -930859753
+      Assets-al-100_0: 1354536024
+      Assets-al-100_6: 1107469527
+      Assets-al-100_3: -1558837806
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
