@@ -1073,9 +1073,15 @@ MonoBehaviour:
   fondo: {fileID: 714913227}
   col: {fileID: 3272739565980529135, guid: 3e371780c5cc4f04b8bad308ab14cc23, type: 3}
   cols: []
+  obstaculos: []
   floorSpeed: 2
   contadorTiempo: 0
   tiempo: {fileID: 273070178}
+  calavera: {fileID: 6478687026530727502, guid: 6fa795891809c85418e0be1dbfd1e32e, type: 3}
+  picos: {fileID: 93677220481385869, guid: e644fc9197d434a40848e092d174585f, type: 3}
+  piedras: {fileID: 4930306824188941122, guid: 636b5a29788b0824595142c2549406f3, type: 3}
+  charco: {fileID: 7554065743385032571, guid: 2a42bf80e4faec24faa993a9c4b11acf, type: 3}
+  cactus: {fileID: 276586827744697217, guid: 875ee12753c7bf742978453d225cf410, type: 3}
 --- !u!4 &1598604438
 Transform:
   m_ObjectHideFlags: 0
