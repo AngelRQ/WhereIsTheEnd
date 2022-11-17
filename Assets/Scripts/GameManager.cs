@@ -30,11 +30,12 @@ public class GameManager : MonoBehaviour
         }
 
         //SE CREAN LOS OBSTACULOS
-        obstaculos.Add(Instantiate(calavera, new Vector2(5 , -3.7f), Quaternion.identity));
-        obstaculos.Add(Instantiate(picos, new Vector2(20, -3.2f), Quaternion.identity));
-        obstaculos.Add(Instantiate(piedras, new Vector2(43, -3.4f), Quaternion.identity));
-        obstaculos.Add(Instantiate(charco, new Vector2(65, -3.9f), Quaternion.identity));
-        obstaculos.Add(Instantiate(cactus, new Vector2(89, -3.4f), Quaternion.identity));
+        obstaculos.Add(Instantiate(calavera, new Vector2(5 , -3.5f), Quaternion.identity));
+        obstaculos.Add(Instantiate(picos, new Vector2(20, -3.5f), Quaternion.identity));
+        obstaculos.Add(Instantiate(piedras, new Vector2(43, -3.5f), Quaternion.identity));
+        obstaculos.Add(Instantiate(charco, new Vector2(65, -3.5f), Quaternion.identity));
+        obstaculos.Add(Instantiate(cactus, new Vector2(89, -3.5f), Quaternion.identity));
+        //CADA OBSTACULO TIENE SUS PROPIAS COORDENADAS EN Y
 
     }
 
@@ -64,7 +65,7 @@ public class GameManager : MonoBehaviour
             if (obstaculos[i].transform.position.x <= -10)
             {
                 float randomObst = Random.Range(1, 99);
-                obstaculos[i].transform.position = new Vector3(randomObst, 0); //se vuelven a generar en 0 y
+                obstaculos[i].transform.position = new Vector3(randomObst, -3.5f, 0); //se vuelven a generar en -3.5f en eje y
             }
             obstaculos[i].transform.position = obstaculos[i].transform.position + new Vector3(-1, 0, 0) * Time.deltaTime * floorSpeed;
         }
