@@ -812,7 +812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 2
-  jumpForce: 250
+  jumpForce: 300
   rigidbody2D: {fileID: 0}
   lifesPanel: {fileID: 805347144}
   tiempo: {fileID: 273070178}
