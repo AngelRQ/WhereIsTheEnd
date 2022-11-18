@@ -48,13 +48,13 @@ public class GameManager : MonoBehaviour
         contadorTiempo += Time.deltaTime;
         tiempo.text = "" + contadorTiempo.ToString("f1");
         tiempoLocal += 1;
-        Debug.Log(tiempoLocal);
+        
 
         //AQUI SE MUEVE EL FONDO
         fondo.material.mainTextureOffset = fondo.material.mainTextureOffset + new Vector2 (0.10f, 0) * Time.deltaTime;
         
          if(aumentarVelocidad()){
-                Debug.Log("Aumento la velocidad");
+                
                 tiempoLocal = 0;
                 floorSpeed += 0.002f;
         }
