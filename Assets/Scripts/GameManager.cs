@@ -76,7 +76,7 @@ public class GameManager : MonoBehaviour
             if (obstaculos[i].transform.position.x <= -10)
             {
                 float randomObst = Random.Range(1, 99);
-                obstaculos[i].transform.position = new Vector3(randomObst, -3.5f, -1); //se vuelven a generar en -3.5f en eje y
+                obstaculos[i].transform.position = new Vector3(randomObst, -3.5f, 0);
             }
             obstaculos[i].transform.position = obstaculos[i].transform.position + new Vector3(-1, 0, 0) * Time.deltaTime * floorSpeed;
         }
