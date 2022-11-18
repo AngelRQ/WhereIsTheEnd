@@ -14,6 +14,9 @@ public class Player : MonoBehaviour
     public Rigidbody2D rigidbody2D;
     public GameObject lifesPanel;
     public Text tiempo;
+    
+    
+  
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +34,10 @@ public class Player : MonoBehaviour
         //     rigidbody2D.AddForce(new Vector2(0, jumpForce));
         // }
 
+       
+
+        
+
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
 
@@ -40,9 +47,10 @@ public class Player : MonoBehaviour
 
         if (isGrounded)
         {
-            Debug.Log("NO esta tocando");
+         
             animator.SetBool("isJumping", false);
         }
+
 
     }
 
@@ -75,12 +83,15 @@ public class Player : MonoBehaviour
     public void Death()
     {
         float contador = 0;
+   
         if (life <= 1)
         {
             SceneManager.LoadScene("Perdida");
 
             tiempo.text = "" + contador.ToString("f1");
             life = 2;
+             
+
             for (int i = 0; i < lifesPanel.transform.childCount; i++)
             {
                 lifesPanel.transform.GetChild(i).gameObject.SetActive(true);
@@ -101,6 +112,8 @@ public class Player : MonoBehaviour
             Death();
         }
     }
+
+
 
 
 }
