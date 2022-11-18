@@ -10,9 +10,11 @@ public class GameManager : MonoBehaviour
     public GameObject col;
     public List<GameObject> cols;
     public List<GameObject> obstaculos;
-    public float floorSpeed = 2;
+    public float floorSpeed = 1f;
     public float contadorTiempo = 0;
     public Text tiempo;
+    private int limiteAumentarV = 5;
+    private int tiempoLocal;
     public GameObject calavera;
     public GameObject picos;
     public GameObject piedras;
@@ -45,18 +47,27 @@ public class GameManager : MonoBehaviour
         //SISTEMA DE DISTANCIA
         contadorTiempo += Time.deltaTime;
         tiempo.text = "" + contadorTiempo.ToString("f1");
-
+        tiempoLocal += 1;
+        
 
         //AQUI SE MUEVE EL FONDO
         fondo.material.mainTextureOffset = fondo.material.mainTextureOffset + new Vector2 (0.10f, 0) * Time.deltaTime;
         
+         if(aumentarVelocidad()){
+                
+                tiempoLocal = 0;
+                floorSpeed += 0.002f;
+        }
         //SE MUEVE EL SUELO
         for(int i=0; i < cols.Count; i++)
         {
-            if(cols[i].transform.position.x <= -10){
+            
+            if(cols[i].transform.position.x <= -50){
                 cols[i].transform.position = new Vector3(10, -4.5f, 0);
             }
+           
             cols[i].transform.position = cols[i].transform.position + new Vector3(-1,0,0) * Time.deltaTime * floorSpeed;
+           
         }
 
         //AQUI SE MUEVEN LOS OBSTACULOS
@@ -69,5 +80,14 @@ public class GameManager : MonoBehaviour
             }
             obstaculos[i].transform.position = obstaculos[i].transform.position + new Vector3(-1, 0, 0) * Time.deltaTime * floorSpeed;
         }
+    }
+
+    bool aumentarVelocidad(){
+     if(tiempoLocal==limiteAumentarV){
+        return true;
+     }
+     else{
+        return false;
+     }
     }
 }
