@@ -265,17 +265,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5001213701006176816, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: ShapeModule.type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5001213701006176816, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5001213701006176816, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.a
+      value: 0.078431375
+      objectReference: {fileID: 0}
     - target: {fileID: 5001213701006176817, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5001213701006176817, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.7553517
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 5001213701006176817, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.5716419
+      value: -5.42
       objectReference: {fileID: 0}
     - target: {fileID: 5001213701006176817, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
       propertyPath: m_LocalPosition.z
@@ -311,7 +323,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5001213701006176822, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
       propertyPath: m_Name
-      value: Smoke (1)
+      value: Smoke
+      objectReference: {fileID: 0}
+    - target: {fileID: 5001213701006176823, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: m_MaxParticleSize
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
@@ -383,8 +399,8 @@ Canvas:
   m_GameObject: {fileID: 509333593}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
