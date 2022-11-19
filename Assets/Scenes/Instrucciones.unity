@@ -895,6 +895,75 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 1330385059}
+--- !u!1001 &1350511643
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5001213701006176816, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: ShapeModule.type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5001213701006176816, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.a
+      value: 0.078431375
+      objectReference: {fileID: 0}
+    - target: {fileID: 5001213701006176817, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5001213701006176817, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 5001213701006176817, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5001213701006176817, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5001213701006176817, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5001213701006176817, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5001213701006176817, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5001213701006176817, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5001213701006176817, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5001213701006176817, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5001213701006176817, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5001213701006176822, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: m_Name
+      value: Smoke
+      objectReference: {fileID: 0}
+    - target: {fileID: 5001213701006176823, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
+      propertyPath: m_MaxParticleSize
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60991ec0be676a24eb0162fc7aebae88, type: 3}
 --- !u!1 &1394228867
 GameObject:
   m_ObjectHideFlags: 0
@@ -1039,8 +1108,8 @@ Canvas:
   m_GameObject: {fileID: 1795933145}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 252859678}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
