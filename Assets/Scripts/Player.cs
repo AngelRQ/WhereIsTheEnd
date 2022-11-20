@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-
+            Debug.Log("estaSaltando");
             Jump();
         }
     }
